@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashActivity">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--     <Button-->
+<!--         android:onClick="registrardadosusuario"-->
+<!--         android:text="Dados do usuário"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="wrap_content"/>-->
+
+<!--    <Button-->
+<!--        android:onClick="registrardadosvenda"-->
+<!--        android:text="Dados da venda"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <Button-->
+<!--        android:onClick="registrardadostarefa"-->
+<!--        android:text="Dados da tarefa"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <Button-->
+<!--        android:onClick="gerardadosnofirebase"-->
+<!--        android:text="Gerar dados"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+    <Button
+        android:onClick="pergunta1"
+        android:text="Pergunta 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="pergunta2"
+        android:text="Pergunta 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="pergunta3"
+        android:text="Pergunta 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="pergunta4"
+        android:text="Pergunta 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="SAIR"
+        android:onClick="sair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="carregardados"
+        android:textSize="20sp"
+        android:text="Carregar dados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
